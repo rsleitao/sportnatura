@@ -2,9 +2,20 @@ body{
     margin: 0px;
 }
 
+header{
+    display: inline-block;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+footer{
+    height: 20vh;
+    background-color: black!important;
+}
+
 .img1,.img2,.img3 {
 
-    border: 1px solid red;
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -17,15 +28,15 @@ body{
 }
 
 .img1{
-    background-image: url("/imagens/imagem1.jpg");
+    background-image: url("/imagens/landscape1.jpg");
 }
 
 .img2{
-    background-image: url("/imagens/imagem2.jpg");
+    background-image: url("/imagens/landscape2.jpg");
 }
 
 .img3{
-    background-image: url("/imagens/imagem3.jpg");
+    background-image: url("/imagens/landscape3.jpg");
 }
 
 .conteudo{
@@ -33,3 +44,54 @@ body{
     padding: 50px;
     font-size: 25px;
 }
+
+
+
+
+li{
+    display: inline-block!important;
+    list-style-type: none!important;
+    list-style: none!important;
+    position: relative!important;
+    top: 25px!important;
+    
+}
+
+li img{
+
+    height:10vh!important;
+    position: relative!important;
+    top: -30px!important;
+}
+
+li a{
+    text-transform: uppercase!important;
+    text-decoration: none!important;
+    font-size: 18px!important;
+
+    padding: 0px 20px!important;
+    margin-top: 50px!important;
+
+}
+
+.nav-link{
+    transition: transform 0.5s!important;
+    color: white!important;
+}
+
+.nav-link:hover{
+    transition: transform 0.5s!important;
+    transition: color 0.2s!important;
+
+    transform: scale(1.05)!important;
+    color: aquamarine!important;
+    
+}
+
+.icon{
+    height: 60px;
+    border: 3px solid white;
+    border-radius: 50%;
+    background-size: cover;
+}
+
