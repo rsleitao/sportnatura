@@ -1,3 +1,7 @@
+:root{
+    --cor-fundo: rgb(36, 56, 23)!important;
+}
+
 body{
     margin: 0px;
 }
@@ -7,14 +11,15 @@ header{
     width: 100%;
     position: fixed;
     z-index: 10;
+    background-color: var(--cor-fundo);
 }
 
 footer{
     height: 20vh;
-    background-color: black!important;
+    background-color: var(--cor-fundo);
 }
 
-.img1,.img2,.img3 {
+.img1,.img2,.img3,.img4 {
 
     height: 100vh;
     background-position: center;
@@ -39,12 +44,9 @@ footer{
     background-image: url("/imagens/landscape3.jpg");
 }
 
-.conteudo{
-    height: 150px;
-    padding: 50px;
-    font-size: 25px;
+.img4{
+    background-image: url("/imagens/landscape4.jpg");
 }
-
 
 
 
@@ -89,9 +91,7 @@ li a{
 }
 
 .icon{
-    height: 60px;
-    border: 3px solid white;
-    border-radius: 50%;
-    background-size: cover;
+    height: 40px;
+    margin: 0px 7px;
 }
 
