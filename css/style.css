@@ -33,19 +33,19 @@ footer{
 }
 
 .img1{
-    background-image: url("../imagens/landscape1.jpg");
+    background-image: url("/imagens/landscape1.jpg");
 }
 
 .img2{
-    background-image: url("../imagens/landscape2.jpg");
+    background-image: url("/imagens/landscape2.jpg");
 }
 
 .img3{
-    background-image: url("../imagens/landscape3.jpg");
+    background-image: url("/imagens/landscape3.jpg");
 }
 
 .img4{
-    background-image: url("../imagens/landscape4.jpg");
+    background-image: url("/imagens/landscape4.jpg");
 }
 
 
