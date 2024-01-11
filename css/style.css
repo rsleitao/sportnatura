@@ -79,7 +79,6 @@ li a{
 }
 
 .nav-link{
-    transition: transform 0.5s!important;
     color: white!important;
 }
 
