@@ -19,7 +19,7 @@ footer{
     background-color: var(--cor-fundo);
 }
 
-.img1,.img2,.img3,.img4 {
+.img1,.img2,.img3,.img4, .fundo-about-us {
 
     height: 100vh;
     background-position: center;
@@ -47,6 +47,20 @@ footer{
 .img4{
     background-image: url("../imagens/landscape4.jpg");
 }
+
+.fundo-about-us{
+    background-image: url("../imagens/landscape3.jpg");
+    
+}
+
+.cx-about-us{
+    background-color: rgba(255, 255, 255, 0.4);
+    
+    height: 670px;
+    position: relative;
+    top: 20%;
+}
+
 
 
 
