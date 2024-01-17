@@ -71,7 +71,7 @@ footer{
 .cx-main{
     background-color: rgba(255, 255, 255, 0.4);
     
-    height: 100%;
+    
     position: relative;
     top: 20%;
 }
@@ -148,6 +148,7 @@ li a{
     background-repeat: no-repeat;
     height: 200px;
     width: 200px;   
+    padding: 0px 10px ;
 }
 
 
@@ -205,3 +206,124 @@ li a{
 .logo18{
     background-image: url("/imagens/bombeirostondela.jpg"); 
 }
+.logo19{
+    background-image: url("/imagens/bpi.png"); 
+}
+.logo20{
+    background-image: url("/imagens/brose.png"); 
+}
+.logo21{
+    background-image: url("/imagens/caramulo.jpg"); 
+}
+.logo22{
+    background-image: url("/imagens/casalagar.jpg"); 
+}
+.logo23{
+    background-image: url("/imagens/cepsas.png"); 
+}
+.logo24{
+    background-image: url("/imagens/cerealis.jpg"); 
+}
+.logo25{
+    background-image: url("/imagens/cespa.jpg"); 
+}
+.logo26{
+    background-image: url("/imagens/chaovintem.png"); 
+}
+.logo27{
+    background-image: url("/imagens/cheiroalecrim.png"); 
+}
+.logo28{
+    background-image: url("/imagens/chsfrancisco.jpg"); 
+}
+.logo29{
+    background-image: url("/imagens/civiseudaolafoes.png"); 
+}
+.logo30{
+    background-image: url("/imagens/clientes1.jpg"); 
+}
+.logo31{
+    background-image: url("/imagens/clinicamedicasalinas.png"); 
+}
+.logo32{
+    background-image: url("/imagens/codeone.png"); 
+}
+.logo33{
+    background-image: url("/imagens/colegioviasacra.jpg"); 
+}
+.logo34{
+    background-image: url("/imagens/confidentia.png"); 
+}
+.logo35{
+    background-image: url("/imagens/confraria.jpg"); 
+}
+.logo36{
+    background-image: url("/imagens/decathlon.png"); 
+}
+.logo37{
+    background-image: url("/imagens/deloitte.png"); 
+}
+.logo38{
+    background-image: url("/imagens/confidentia.png"); 
+}
+.logo39{
+    background-image: url("/imagens/durit.gif"); 
+}
+.logo40{
+    background-image: url("/imagens/dxocio.png"); 
+}
+.logo41{
+    background-image: url("/imagens/ecotravel.png"); 
+}
+.logo42{
+    background-image: url("/imagens/edp.jpg"); 
+}
+.logo43{
+    background-image: url("/imagens/escoteiros.jpg"); 
+}
+.logo44{
+    background-image: url("/imagens/ferrovial.jpg"); 
+}
+.logo45{
+    background-image: url("/imagens/ffonseca.png"); 
+}
+.logo46{
+    background-image: url("/imagens/flagviagens.png"); 
+}
+.logo47{
+    background-image: url("/imagens/ford.jpg"); 
+}
+.logo48{
+    background-image: url("/imagens/fresenius.png"); 
+}
+.logo49{
+    background-image: url("/imagens/fsj.png"); 
+}
+.logo50{
+    background-image: url("/imagens/gabor.jpg"); 
+}
+.logo51{
+    background-image: url("/imagens/gaborfashion.jpg"); 
+}
+.logo52{
+    background-image: url("/imagens/galp.jpg"); 
+}
+.logo53{
+    background-image: url("/imagens/gialmar.jpg"); 
+}
+.logo54{
+    background-image: url("/imagens/goldentulip.png"); 
+}
+.logo55{
+    background-image: url("/imagens/green\ iberica.jpg"); 
+}
+.logo56{
+    background-image: url("/imagens/fsj.png"); 
+}
+.logo57{
+    background-image: url("/imagens/fsj.png"); 
+}
+.logo58{
+    background-image: url("/imagens/fsj.png"); 
+}
+
