@@ -102,7 +102,7 @@ li{
 
 li img{
 
-    height:10vh!important;
+    height:6vh!important;
     position: relative!important;
     top: -30px!important;
 }
@@ -116,6 +116,7 @@ li a{
     margin-top: 50px!important;
 
 }
+
 
 .nav-link{
     color: white!important;
@@ -140,6 +141,8 @@ li a{
     transform: scale(1.1);
 
 }
+
+
 
 /*Logo Clientes*/
 .img-logo{
@@ -327,3 +330,33 @@ li a{
     background-image: url("/imagens/fsj.png"); 
 }
 
+/*MEDIA QUERYS*/
+
+
+
+@media only screen and (max-width: 992px) {
+    
+    li img{
+
+
+        position: relative!important;
+        left: -12vh!important;
+    }
+
+    li{
+        position: relative;
+        left: 7vh;
+        top: 20px; 
+    }
+
+   
+   
+
+    .nav-link{    
+        padding: 0px 10px!important;
+        margin-top: 50px!important;
+    }
+
+   
+
+  }
