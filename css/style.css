@@ -102,7 +102,11 @@ li{
 
 li img{
 
-    height:6vh!important;
+    height:6vw!important;
+    min-width:219.5px ;
+    min-height: 59.4px;
+    max-width: 300.13px;
+    max-height: 81.35px;
     position: relative!important;
     top: -30px!important;
 }
@@ -112,7 +116,7 @@ li a{
     text-decoration: none!important;
     font-size: 18px!important;
 
-    padding: 0px 20px!important;
+    padding: 50px 20px!important;
     margin-top: 50px!important;
 
 }
@@ -340,12 +344,12 @@ li a{
 
 
         position: relative!important;
-        left: -12vh!important;
+        left: -12vw!important;
     }
 
     li{
         position: relative;
-        left: 7vh;
+        left: 7vw;
         top: 20px; 
     }
 
@@ -354,6 +358,7 @@ li a{
 
     .nav-link{    
         padding: 0px 10px!important;
+        margin-bottom: 30px;
         margin-top: 50px!important;
     }
 
