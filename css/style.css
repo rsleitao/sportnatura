@@ -127,20 +127,29 @@ li a{
 
     border: none;
     background-image: url("/imagens/hamburger-inativo.png");
+    transition: background-image 1s!important;
     font-size: 30px;
+    
     
 }
 
-.navbar-toggler-icon:active,
-.navbar-toggler-icon:focus{
 
+.navbar-toggler-icon:active,
+.navbar-toggler-icon:focus,
+.navbar-toggler-icon:hover{
+
+    
     background-image: url("/imagens/hamburger-ativo.png");
+    transition: background-image 0.3s!important;
+    
 }
+
+
 
 .navbar-toggler{
     position: relative;
     right: -30px;
-    top: 10px;
+    top: 5px;
 
 }
 
