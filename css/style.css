@@ -122,6 +122,40 @@ li a{
 }
 
 
+
+.navbar-toggler-icon{
+
+    border: none;
+    background-image: url("/imagens/hamburger-inativo.png");
+    font-size: 30px;
+    
+}
+
+.navbar-toggler-icon:active,
+.navbar-toggler-icon:focus{
+
+    background-image: url("/imagens/hamburger-ativo.png");
+}
+
+.navbar-toggler{
+    position: relative;
+    right: -30px;
+    top: 10px;
+
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    
+    outline: none;
+    box-shadow: none;
+    border: none;
+ }
+
+
+
 .nav-link{
     color: white!important;
 }
