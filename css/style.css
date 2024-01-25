@@ -1,5 +1,6 @@
 :root{
     --cor-fundo: rgb(58, 143, 5)!important;
+    --cor-fundo2: #111!important;
 }
 
 body{
@@ -16,7 +17,7 @@ header{
 
 footer{
     height: 20vh;
-    background-color: var(--cor-fundo);
+    background-color: var(--cor-fundo2);
 }
 
 .cx-teste{
@@ -88,6 +89,31 @@ footer{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.txt-footer{
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    margin: 0px;
+}
+
+.btn-footer{
+    border: none;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.5s;
+    background-color: rgb(58, 143, 5);
+    margin: 10px;
+    width: 200px;
+}
+
+.btn-footer:hover{
+    transition: background-color 0.5s;
+    background-color: rgb(33, 80, 4);   
+}
+
+#logo-footer{
+    width: 200px;
+}
 
 #logo{
 
@@ -179,12 +205,15 @@ li a{
 }
 
 .icon{
-    height: 40px;
+    max-width: 40px;
+    width: 10vh;
     margin: 0px 7px;
+    transition: transform 0.5s;
+    transform: scale(1.0);
 }
 
 .icon:hover{
-    transition: transform 300ms; 
+    transition: transform 0.5s; 
     transform: scale(1.1);
 
 }
