@@ -16,7 +16,7 @@ header{
 }
 
 footer{
-    height: 20vh;
+    
     background-color: var(--cor-fundo2);
 }
 
@@ -206,9 +206,31 @@ li a{
 }
 
 .icon{
-    max-width: 5vh!important;
-    width: 4vh!important;
+    max-width: 30px!important;
+    width: 8vh!important;
     margin: 0px 7px;
+    transition: transform 0.5s;
+    transform: scale(1.0);
+}
+
+.pwrd-by{
+    color: rgb(104, 104, 104);
+}
+
+.reclamacao:hover{
+    color: rgb(255, 255, 255);
+}
+
+
+.cx-powerby{
+    border-top: 1px solid rgb(32, 32, 32);
+}
+
+
+.icon-tn{
+    max-width: 10vh!important;
+    width: 10vh!important;
+
     transition: transform 0.5s;
     transform: scale(1.0);
 }
