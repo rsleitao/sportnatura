@@ -90,8 +90,7 @@ footer{
 }
 
 .txt-footer{
-    font-size: 14px;
-    font-weight: bold;
+    font-size: 12px;  
     color: white;
     margin: 0px;
 }
@@ -113,6 +112,8 @@ footer{
 
 #logo-footer{
     width: 200px;
+    min-width: 200px;
+    max-width: 200px;
 }
 
 #logo{
@@ -205,8 +206,8 @@ li a{
 }
 
 .icon{
-    max-width: 40px;
-    width: 10vh;
+    max-width: 5vh!important;
+    width: 4vh!important;
     margin: 0px 7px;
     transition: transform 0.5s;
     transform: scale(1.0);
@@ -434,6 +435,14 @@ li a{
         transform: scale(1)!important;
         color: aquamarine!important; 
     }
+    
+  
+    
+}
+
+
+@media (max-width: 850px) {
+    
     
 
     
