@@ -248,10 +248,7 @@ li a{
 
 .icon-tn{
     max-width: 10vh!important;
-    width: 10vh!important;
-
-    transition: transform 0.5s;
-    transform: scale(1.0);
+    width: 8vh!important;
 }
 
 .icon:hover{
