@@ -166,7 +166,7 @@ li a{
 .navbar-toggler-icon{
 
     border: none;
-    background-image: url("/imagens/hamburger-inativo.png");
+    background-image: url("../imagens/hamburger-inativo.png");
     transition: background-image 1s!important;
     font-size: 30px;
       
@@ -177,7 +177,7 @@ li a{
 .navbar-toggler-icon:focus,
 .navbar-toggler-icon:hover{
  
-    background-image: url("/imagens/hamburger-ativo.png");
+    background-image: url("../imagens/hamburger-ativo.png");
     transition: background-image 0.3s!important;
    
 }
