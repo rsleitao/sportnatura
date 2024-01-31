@@ -157,7 +157,7 @@ li a{
     max-width: 300.13px;
     max-height: 81.35px;
     position: relative!important;
-    top: -30px!important;
+    top: -40px!important;
 }
 
 
@@ -218,10 +218,7 @@ li a{
 .nav-link{
     position: relative;
     top: -15px;
-    right: 25px;
-    
-  
-    
+    color: white;
 }
 
 
@@ -313,6 +310,10 @@ li a{
         color: aquamarine!important; 
     }
     
+    .icon-tn{
+        max-width: 7vh!important;
+        width: 7vh!important;
+    }
   
     
 }
