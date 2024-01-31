@@ -96,12 +96,19 @@ li a{
 }
 
 .cx-main{
-    background-color: rgba(255, 255, 255, 0.4);
+    padding-top: 130px !important;
     
-    
-    position: relative;
-    top: 20%;
 }
+
+.cx-fundo-aboutus{
+    background-color: rgba(150, 150, 150, 0.4);
+}
+
+.cx-about-us{
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+
 /*Main*/
 
 
