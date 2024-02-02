@@ -186,3 +186,17 @@
     background-image: url("/imagens/fsj.png"); 
 }
 /*Logo Clientes*/
+
+
+@media (max-width: 731px) {
+    
+    .img-logo{
+        
+        height: 140px;
+        width: 140px;   
+        
+        
+    }
+
+    
+}
