@@ -166,6 +166,19 @@ li a{
     position: relative!important;
     top: -40px!important;
 }
+/*Cards Atividades*/
+.card{
+    border:1px solid black;
+    border-radius: 50%;
+    background-color: white;
+    height: 250px;
+    width: 250px;
+    
+    
+}
+
+/*Circulos Atividades*/
+
 
 
 
@@ -212,12 +225,12 @@ li a{
 
 .navbar-collapse{
 
-    background-color: rgba(235, 232, 232, 0.61);
+    background-color: rgba(255, 255, 255, 0.61);
     
 }
 
 #navbarNav{
-    width: 98vw;
+    width: 100vw;
    
     
 }
@@ -226,13 +239,7 @@ li a{
     position: relative;
     top: -15px;
     color: white;
-}
-
-
-
-
-/*Hamburguer*/
-
+    }
 
 .nav-link:hover{
     transition: transform 0.5s!important;
@@ -242,6 +249,12 @@ li a{
     color: aquamarine!important;
     
 }
+
+
+/*Hamburguer*/
+
+
+
 
 /*Icones Redes Sociais footer*/
 
@@ -321,6 +334,13 @@ li a{
         max-width: 7vh!important;
         width: 7vh!important;
     }
+
+    .nav-link{
+        position: relative;
+        top: -15px;
+        color: white;
+        right: 40px;
+        }
   
     
 }
