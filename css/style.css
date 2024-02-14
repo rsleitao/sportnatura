@@ -1,5 +1,5 @@
 :root{
-    --cor-fundo: rgb(58, 143, 5)!important;
+    --cor-fundo: rgb(58, 187, 80)!important;
     --cor-fundo2: #111!important;
 }
 
@@ -101,11 +101,11 @@ li a{
 }
 
 .cx-fundo-aboutus{
-    background-color: rgba(150, 150, 150, 0.4);
+    background-color: rgba(255, 255, 255, 0.4);
 }
 
 .cx-about-us{
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(207, 128, 128, 0.178);
 }
 
 
@@ -140,14 +140,14 @@ li a{
     color: white;
     font-weight: bold;
     transition: background-color 0.5s;
-    background-color: rgb(58, 143, 5);
+    background-color: var(--cor-fundo);
     margin: 10px;
     width: 200px;
 }
 
 .btn-footer:hover{
     transition: background-color 0.5s;
-    background-color: rgb(33, 80, 4);   
+    background-color: rgb(50, 114, 11);   
 }
 
 #logo-footer{
