@@ -6,14 +6,27 @@
     background-repeat: no-repeat;
     height: 120px;
     width: 120px;   
-    
+    margin: auto;
     
 }
 
-.owl-item{
-    width: 160px !important;
-    margin: auto;
+.owl-carousel .owl-stage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.owl-item {
+    width: 120px; /* Defina a largura desejada para cada item */
+    padding: 10px;
+}
+
+.owl-carousel .owl-stage-outer {
+    overflow: hidden; /* Oculta os itens que ultrapassam a área visível */
+}
+
+
+
 
 
 .logo1{
