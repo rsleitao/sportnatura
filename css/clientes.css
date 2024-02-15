@@ -4,10 +4,15 @@
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    height: 180px;
-    width: 180px;   
-    padding: 0px 10px ;
+    height: 120px;
+    width: 120px;   
     
+    
+}
+
+.owl-item{
+    width: 160px !important;
+    margin: auto;
 }
 
 
