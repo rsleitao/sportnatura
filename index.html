@@ -7,10 +7,22 @@
 
     <title>SPORTNATURA</title>
 
+    <!--Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-
+    <!--CSS-->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/clientes.css">
+    <link rel="stylesheet" href="fonts/fonts.css">
+    
+
+    <!--Scripts-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -22,7 +34,7 @@
                         <ul class="m-0 p-0">
                             <li><a class="nav-link" href="index1.html">HOME</a></li>
                             <li><a class="nav-link" href="about_us.html">Quem Somos</a></li>
-                            <li><a class="nav-logo" href="index.html"><img id="logo" src="imagens/logo.png" alt=""></a>
+                            <li><a class="nav-logo" href="index1.html"><img id="logo" src="imagens/logo.png" alt=""></a>
                             </li>
                             <li><a class="nav-link" href="clientes.html">Clientes</a></li>
                             <li><a class="nav-link" href="contactos.html">Contactos</a></li>
@@ -64,49 +76,117 @@
         </div>
     </header>
     <main>
-        <div class="img1"></div>
-
-        <div class="container-fluid justify-content-center">
-            <div class="row">
-                <div class="col-12 d-flex justify-content-center">
-                    <img src="imagens/animanatura.png" alt="animanatura">
-
+        <div class="container-fluid px-0">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
                 </div>
-
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="imagens/landscape2.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="t1">Prepare a sua próxima aventura</h5>
+                            <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagens/landscape2.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Second slide label</h5>
+                            <p>Some representative placeholder content for the second slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagens/landscape2.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Third slide label</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
 
 
         </div>
 
-        <div class="img2">
-            <div class="card">
-                <p class="text-center">atividade1</p>
-            </div>
-        </div>
-
-        <div class="container-fluid justify-content-center">
+        <div class="container-fluid justify-content-center d-none d-md-none d-lg-block">
             <div class="row">
+                <div class="col-12 text-center">Nossos Clientes</div>
                 <div class="col-12 d-flex justify-content-center">
-                    <img src="imagens/brincanatura.png" alt="brincanatura">
+
+                    <div class="owl-carousel mx-auto">
+                        <div class="logo1 img-logo"></div>
+                        <div class="logo2 img-logo"></div>
+                        <div class="logo3 img-logo"></div>
+                        <div class="logo4 img-logo"></div>
+                        <div class="logo5 img-logo"></div>
+                        <div class="logo6 img-logo"></div>
+                        <div class="logo7 img-logo"></div>
+                        <div class="logo8 img-logo"></div>
+                        <div class="logo9 img-logo"></div>
+                        <div class="logo10 img-logo"></div>
+                        <div class="logo11 img-logo"></div>
+                        <div class="logo12 img-logo"></div>
+                        <div class="logo13 img-logo"></div>
+                        <div class="logo14 img-logo"></div>
+                        <div class="logo15 img-logo"></div>
+                        <div class="logo16 img-logo"></div>
+                        <div class="logo17 img-logo"></div>
+                        <div class="logo18 img-logo"></div>
+                        <div class="logo19 img-logo"></div>
+                        <div class="logo20 img-logo"></div>
+                        <div class="logo21 img-logo"></div>
+                        <div class="logo22 img-logo"></div>
+                        <div class="logo23 img-logo"></div>
+                        <div class="logo24 img-logo"></div>
+                        <div class="logo25 img-logo"></div>
+                        <div class="logo26 img-logo"></div>
+                        <div class="logo27 img-logo"></div>
+                        <div class="logo28 img-logo"></div>
+                        <div class="logo29 img-logo"></div>
+                        <div class="logo30 img-logo"></div>
+                        <div class="logo31 img-logo"></div>
+                        <div class="logo32 img-logo"></div>
+                        <div class="logo33 img-logo"></div>
+                        <div class="logo34 img-logo"></div>
+                        <div class="logo35 img-logo"></div>
+                        <div class="logo36 img-logo"></div>
+                        <div class="logo37 img-logo"></div>
+                        <div class="logo38 img-logo"></div>
+                        <div class="logo39 img-logo"></div>
+                        <div class="logo40 img-logo"></div>
+                        <div class="logo41 img-logo"></div>
+                        <div class="logo42 img-logo"></div>
+                        <div class="logo43 img-logo"></div>
+                        <div class="logo44 img-logo"></div>
+                        <div class="logo45 img-logo"></div>
+                        <div class="logo46 img-logo"></div>
+                        <div class="logo47 img-logo"></div>
+                        <div class="logo48 img-logo"></div>
+                        <div class="logo49 img-logo"></div>
+                        <div class="logo50 img-logo"></div>
+                    </div>
                 </div>
             </div>
 
 
         </div>
 
-        <div class="img3"></div>
-
-        <div class="container-fluid justify-content-center">
-            <div class="row">
-                <div class="col-12 d-flex justify-content-center">
-                    <img src="imagens/teambuilding.png" alt="teambuilding">
-                </div>
-            </div>
-
-
-        </div>
-
-        <div class="img4"></div>
 
 
     </main>
@@ -181,8 +261,15 @@
         </div>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="animacoes.js"></script>
 </body>
 
 </html>
