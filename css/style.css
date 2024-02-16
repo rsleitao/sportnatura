@@ -286,8 +286,8 @@ li a{
 
 
 .icon-tn{
-    max-width: 10vh!important;
-    width: 8vh!important;
+    max-width: 3vh!important;
+    width: 5vh!important;
 }
 
 .icon:hover{
@@ -331,8 +331,8 @@ li a{
     }
     
     .icon-tn{
-        max-width: 7vh!important;
-        width: 7vh!important;
+        max-width: 5vh!important;
+        width: 6vh!important;
     }
 
     .nav-link{
