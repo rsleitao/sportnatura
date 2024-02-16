@@ -1,7 +1,13 @@
 :root{
     --cor-fundo: rgb(58, 187, 80)!important;
     --cor-fundo2: #111!important;
-    --titulo1: 'Roboto';
+
+    --cor-t1: #013705!important;
+    --cor-t2: #2ba81f!important;
+    
+    --titulo1: 'Roboto' !important;
+    --titulo2: 'Caveat Brush' !important;
+    --texto: 'Fira Sans' !important;
 
 }
 
@@ -9,12 +15,69 @@ body{
     margin: 0px;
 }
 
+.t1-carrousel{
+    font-family: var(--titulo1);
+    font-size: 42px;
+}
+
 .t1{
     font-family: var(--titulo1);
     font-size: 42px;
-
+    color: var(--cor-t1);
 }
 
+span{
+    color: var(--cor-t2);
+    
+    
+}
+
+.span1{
+    font-size: 25px;
+}
+
+.t2{
+    font-family: var(--titulo2);
+    font-size: 35px !important;
+    color: black !important;
+}
+
+.texto{
+    font-family: var(--texto);
+    color: #757F95;
+    text-align: justify;
+}
+
+.carousel-caption{
+
+    text-align: start;
+    position: absolute;
+    top: 140px;
+    left: 50px;
+    
+}
+
+
+.carousel-control-prev,
+    .carousel-control-next {
+        width: 50px; /* Defina a largura dos botões */
+        height: 50px; /* Defina a altura dos botões */
+        border-radius: 50%;
+        background-color: rgba(0, 0, 0, 0.5); /* Cor de fundo dos botões */
+        top: auto; /* Remova o valor padrão para permitir o posicionamento no fundo */
+        bottom: 0; /* Alinhe os botões ao fundo do carrossel */
+        z-index: 1; /* Garante que os botões estejam acima das imagens */
+    }
+
+    .carousel-control-prev {
+        left: 75vw; /* Remove o alinhamento padrão à esquerda */
+        right: auto; /* Alinha o botão "Previous" à direita */
+    }
+
+    .carousel-control-next {
+        left: 85vw; /* Alinha o botão "Next" à esquerda, deixando um espaço de 50px para o botão "Previous" */
+        right: auto;
+    }
 
 header{
     display: inline-block;
@@ -114,7 +177,9 @@ li a{
 }
 
 .cx-about-us{
-    background-color: rgba(207, 128, 128, 0.178);
+    background-color: rgba(124, 194, 106, 0.082);
+    box-shadow: 0px 0px 45px 15px rgba(0, 0, 0, 0.144);
+    
 }
 
 
