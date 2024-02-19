@@ -79,9 +79,7 @@ span{
         right: auto;
     }
 
-    #carouselExampleCaptions{
-        min-width: 770px;
-    }
+   
 
 header{
     display: inline-block;
