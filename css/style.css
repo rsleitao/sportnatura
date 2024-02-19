@@ -246,15 +246,22 @@ li a{
     top: -30px!important;
 }
 /*Cards Atividades*/
-.card{
-    border:1px solid black;
-    border-radius: 50%;
-    background-color: white;
-    height: 250px;
-    width: 250px;
+.card-servicos{
+    
+    width: 220px;
+    height: 110px;
     
     
 }
+
+hr{
+    margin: auto;
+    border: 2px solid rgb(84, 185, 33);
+    border-radius: 15px;
+    width: 200px;
+
+}
+
 
 /*Circulos Atividades*/
 
