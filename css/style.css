@@ -79,15 +79,20 @@ span{
         right: auto;
     }
 
+    #carouselExampleCaptions{
+        min-width: 770px;
+    }
+
 header{
     display: inline-block;
     width: 100%;
     padding: 10px;
     position: fixed;
     z-index: 10;
-    background: rgb(2,0,36);
-    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(59,121,9,1) 53%, rgba(24, 155, 9,0.7) 100%); 
+    background: rgb(17,17,17);
+    background: linear-gradient(180deg, rgba(17,17,17,1) 0%, rgba(59,121,9,1) 53%, rgba(24, 155, 9,0.7) 100%); 
 }
+
 
 footer{
     
@@ -235,9 +240,7 @@ li a{
 #logo{
 
     height:6vw!important;
-    min-width:219.5px ;
-    min-height: 59.4px;
-    max-width: 300.13px;
+    min-height: 40px;
     max-height: 81.35px;
     position: relative!important;
     top: -30px!important;
@@ -255,7 +258,13 @@ li a{
 
 /*Circulos Atividades*/
 
-
+.img-quemsomos{
+    width: 60vw !important;
+    min-width:250px !important;
+    max-width: 400px !important;
+    box-shadow: 2px 2px 5px 1px ;
+    
+}
 
 
 /*Hamburguer*/
@@ -265,7 +274,7 @@ li a{
     border: none;
     background-image: url("../imagens/hamburger-inativo.png");
     transition: background-image 1s!important;
-    font-size: 30px;
+    font-size: 25px;
       
 }
 
@@ -390,6 +399,7 @@ li a{
         margin-top: 5px;
         left: 25px;
         top: 0px!important;
+        
     }
 
     li{ 
