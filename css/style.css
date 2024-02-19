@@ -1,5 +1,5 @@
 :root{
-    --cor-fundo: rgb(58, 187, 80)!important;
+    --cor-fundo: rgb(37, 134, 54)!important;
     --cor-fundo2: #111!important;
 
     --cor-t1: #013705!important;
@@ -82,9 +82,11 @@ span{
 header{
     display: inline-block;
     width: 100%;
+    padding: 10px;
     position: fixed;
     z-index: 10;
-    background-color: var(--cor-fundo);
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(59,121,9,1) 53%, rgba(24, 155, 9,0.7) 100%); 
 }
 
 footer{
@@ -238,7 +240,7 @@ li a{
     max-width: 300.13px;
     max-height: 81.35px;
     position: relative!important;
-    top: -40px!important;
+    top: -30px!important;
 }
 /*Cards Atividades*/
 .card{
@@ -305,13 +307,14 @@ li a{
 
 #navbarNav{
     width: 100vw;
+
    
     
 }
 
 .nav-link{
     position: relative;
-    top: -15px;
+    top: -125px;
     color: white;
     }
 
@@ -327,6 +330,11 @@ li a{
 
 /*Hamburguer*/
 
+.nav-item{
+    border: 1px solid red;
+    
+
+}
 
 
 
