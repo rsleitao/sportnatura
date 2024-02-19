@@ -5,7 +5,7 @@ owl.owlCarousel({
     margin:40,
     autoplay:true,
     autoplayTimeout:3000,
-    autoplayHoverPause:true
+    autoplayHoverPause:false
 });
 
 wow = new WOW(
