@@ -55,6 +55,7 @@ span{
     top: 140px;
     left: 50px;
     
+    
 }
 
 
@@ -78,6 +79,7 @@ span{
         left: 85vw; /* Alinha o botão "Next" à esquerda, deixando um espaço de 50px para o botão "Previous" */
         right: auto;
     }
+
 
    
 
@@ -189,6 +191,16 @@ li a{
 
 
 /*Main*/
+.service-item {
+    transform: translateY(0px);
+    transition: transform 1s;
+  }
+
+.service-item:hover {
+    transform: translateY(-20px);
+    transition: transform 2s;
+    cursor: pointer;
+  }
 
 
 /*Personalização de Texto*/
