@@ -20,6 +20,10 @@ html {
 body{
     margin: 0px;
 }
+main{
+    max-width: 1380px;
+    margin: auto;
+}
 
 .t1-carrousel{
     font-family: var(--titulo1);
@@ -60,8 +64,12 @@ span{
     position: absolute;
     top: 140px;
     left: 50px;
+ 
+}
+
+.cx-carousel{
     
-    
+    box-shadow: 1px 1px 15px 5px rgba(0, 0, 0, 0.4);
 }
 
 
@@ -89,7 +97,7 @@ span{
 
    
 
-header{
+.cx-header{
     display: inline-block;
     width: 100%;
     padding: 10px;
@@ -97,6 +105,14 @@ header{
     z-index: 10;
     background: rgb(17,17,17);
     background: linear-gradient(180deg, rgba(17,17,17,1) 0%, rgba(59,121,9,1) 53%, rgba(24, 155, 9,0.7) 100%); 
+}
+
+.cx-carousel{
+    max-width: 1380px !important;
+}
+
+#carousel{
+    background-color: #111;
 }
 
 
@@ -455,7 +471,10 @@ hr{
         right: 40px;
         }
   
-    
+    .service-item:hover {
+        transform: translateY(-10px);
+        
+        }
 }
 
 /*MEDIA QUERYS*/
