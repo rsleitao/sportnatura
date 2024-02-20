@@ -167,9 +167,11 @@ li a{
 
 .div-email{
     
-    background-image: url("../imagens/landscape2.jpg");
+    background-image: url("../imagens/brincanatura-insuflaveis.jpg");
     background-position: center;
     background-attachment: fixed;
+    background-position: center;
+    background-size: contain;
     height: 300px;
 
 }
@@ -283,9 +285,11 @@ li a{
 }
 
 .txt-footer{
-    font-size: 12px;  
+    font-size: 12px; 
+    font-family: var(--texto); 
     color: white;
     margin: 0px;
+    font-weight: bold;
 }
 
 /*Personalização de Texto*/
