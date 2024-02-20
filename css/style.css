@@ -115,6 +115,24 @@ span{
     background-color: #111;
 }
 
+.card-categoria{
+
+    border-radius: 15px;
+    background-color: rgb(22, 22, 22);
+    box-shadow: 2px 2px 15px 3px rgba(0, 75, 6, 0.3);
+    height: 350px;
+    max-width: 300px;
+    min-width: 300px;
+    
+}
+
+.card-categoria h6{
+    color: white;
+    font-family: var(--texto);
+    font-weight: bolder;
+}
+
+
 
 footer{
     
@@ -147,12 +165,37 @@ li a{
 
 
 
-.cx-teste{
-    margin-top: 100px;
-    width: 100vw;
-    height: 30vh;
-    background-color: aqua;
-    background-image: url("../imagens/clientes.jpg");
+.div-email{
+    
+    background-image: url("../imagens/landscape2.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    height: 300px;
+
+}
+
+.cx-email{
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 300px;
+    text-align: center;
+    align-content: center;
+    font-weight: bolder;
+    color: white;
+ 
+}
+.btn-email{
+    border-radius: 50px;
+    padding: 10px 15px;
+    outline: none;
+    border: none;
+    box-shadow: 2px 2px 15px 3px rgba(0, 0, 0, 0.3);
+    background-color: rgb(255, 255, 255);
+    transition: background-color .25s;
+}
+
+.btn-email:hover{
+    background-color: rgb(37, 223, 77);
+    transition: background-color .25s;
 }
 
 
