@@ -164,12 +164,13 @@ li a{
 
 
 
-
+/*DIV DO EMAIL*/
 .div-email{
     
     background-image: url("../imagens/brincanatura-insuflaveis.jpg");
     background-position: center;
     background-attachment: fixed;
+    background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
     height: 300px;
@@ -199,6 +200,8 @@ li a{
     background-color: rgb(37, 223, 77);
     transition: background-color .25s;
 }
+/*DIV DO EMAIL*/
+
 
 
 .img1,.img2,.img3,.img4, .fundo-about-us {
