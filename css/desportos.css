@@ -110,7 +110,7 @@ body .options .option.active .shadow {
 
 body .options .option.active .label {
   bottom: 20px;
-  left: 20px;
+  left: 10px;
 }
 
 body .options .option.active .label .info>div {
@@ -130,7 +130,17 @@ body .options .option:not(.active) .shadow {
 
 body .options .option:not(.active) .label {
   bottom: 10px;
-  left: 10px;
+  left: 4px;
+}
+
+body .options .option:not(.active) .label .icon>.main {
+  left: 20px;
+  opacity: 1;
+}
+
+body .options .option.active .label .icon>.main {
+  left: 20px;
+  opacity: 0;
 }
 
 body .options .option:not(.active) .label .info>div {
@@ -177,6 +187,10 @@ body .options .option .label .info {
   white-space: pre;
 }
 
+body .options .option .label .icon .main{
+  
+}
+
 body .options .option .label .info>div {
   position: relative;
   transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95), opacity 0.5s ease-out;
@@ -185,6 +199,33 @@ body .options .option .label .info>div {
 body .options .option .label .info .main {
   font-weight: bold;
   font-size: 1.2rem;
+    writing-mode:vertical-lr;
+    -webkit-transform:rotate(180deg);
+    -moz-transform:rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform:rotate(180deg);
+    transform: rotate(180deg);
+    white-space:nowrap;
+    display:block;
+    bottom:0;
+    width:20px;
+    height:20px;
+}
+
+body .options .option .label .icon .main {
+  font-weight: bold;
+  font-size: 1.2rem;
+    writing-mode:vertical-lr;
+    -webkit-transform:rotate(180deg);
+    -moz-transform:rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform:rotate(180deg);
+    transform: rotate(180deg);
+    white-space:nowrap;
+    display:block;
+    bottom:0;
+    width:20px;
+    height:20px;
 }
 
 body .options .option .label .info .sub {
