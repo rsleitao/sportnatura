@@ -115,22 +115,7 @@ span{
     background-color: #111;
 }
 
-.card-categoria{
 
-    border-radius: 15px;
-    background-color: rgb(22, 22, 22);
-    box-shadow: 2px 2px 15px 3px rgba(0, 75, 6, 0.3);
-    height: 350px;
-    max-width: 300px;
-    min-width: 300px;
-    
-}
-
-.card-categoria h6{
-    color: white;
-    font-family: var(--texto);
-    font-weight: bolder;
-}
 
 
 
@@ -331,8 +316,7 @@ li a{
 .card-servicos{
     
     width: 220px;
-    height: 110px;
-    
+    height: 110px;   
     
 }
 
