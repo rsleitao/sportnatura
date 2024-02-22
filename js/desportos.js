@@ -5,7 +5,6 @@ $(".option").mouseover(function () {
   });
 
   
-
 $(".terra").mouseover(function () {
   $(".agua").removeClass("ativo");
   $(".ar").removeClass("ativo");

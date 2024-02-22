@@ -212,11 +212,6 @@ li a{
 
 
 
-
-
-/*footer*/
-
-
 .btn-footer{
     border: none;
     color: white;
@@ -305,8 +300,8 @@ hr{
 /*Footer*/
 
 
-/*MEDIA QUERYS*/
 
+/*MEDIA QUERYS*/
 
 @media (max-width: 991px) {
     
