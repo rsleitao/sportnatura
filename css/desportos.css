@@ -1,9 +1,23 @@
-body .credit {
-  position: absolute;
-  bottom: 20px;
-  left: 20px;
-  color: #000;
+.cat-desporto{
+  font-size: 32px;
+  font-weight: bold;
+  padding: 0px 5px;
+  width: 170px;
+  text-align: center;
+  border-bottom: 2px solid rgb(84, 185, 33);
+ 
+  transform: scale(1);
+  transition: transform 1s !important;
+  
 }
+
+.cat-desporto:hover{
+  transform: scale(1.05);
+  transition: transform 1s;
+  cursor: pointer;
+
+}
+
 
 body .options {
   display: flex;
@@ -16,45 +30,6 @@ body .options {
   height: 400px;
 }
 
-@media screen and (max-width: 718px) {
-  body .options {
-      min-width: 520px;
-  }
-
-  body .options .option:nth-child(5) {
-      display: none;
-  }
-}
-
-@media screen and (max-width: 638px) {
-  body .options {
-      min-width: 440px;
-  }
-
-  body .options .option:nth-child(4) {
-      display: none;
-  }
-}
-
-@media screen and (max-width: 558px) {
-  body .options {
-      min-width: 360px;
-  }
-
-  body .options .option:nth-child(3) {
-      display: none;
-  }
-}
-
-@media screen and (max-width: 478px) {
-  body .options {
-      min-width: 280px;
-  }
-
-  body .options .option:nth-child(2) {
-      display: none;
-  }
-}
 
 body .options .option {
   position: relative;
@@ -73,7 +48,7 @@ body .options .option:nth-child(1) {
 }
 
 body .options .option:nth-child(2) {
-  --defaultBackground: #FC6E51;
+  --defaultBackground: #000000;
 }
 
 body .options .option:nth-child(3) {
@@ -92,6 +67,18 @@ body .options .option:nth-child(6) {
   --defaultBackground: #AC92EC;
 }
 
+body .options .option:nth-child(7) {
+  --defaultBackground: #ecde92;
+}
+
+body .options .option:nth-child(8) {
+  --defaultBackground: #ecb692;
+}
+
+body .options .option:nth-child(9) {
+  --defaultBackground: #ec9292;
+}
+
 body .options .option.active {
   flex-grow: 10000;
   transform: scale(1);
@@ -99,9 +86,7 @@ body .options .option.active {
   margin: 0px;
   border-radius: 40px;
   background-size: auto 100%;
-  /*&:active {
-   transform:scale(0.9);
-}*/
+ 
 }
 
 body .options .option.active .shadow {
@@ -133,12 +118,7 @@ body .options .option:not(.active) .label {
   left: 4px;
 }
 
-body .options .option:not(.active) .label .icon>.main {
-  left: 20px;
-  opacity: 1;
-}
-
-body .options .option.active .label .icon>.main {
+body .options .option.active .label .icon>.vertical {
   left: 20px;
   opacity: 0;
 }
@@ -167,28 +147,35 @@ body .options .option .label {
 
 body .options .option .label .icon {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   min-width: 40px;
   max-width: 40px;
-  height: 40px;
-  border-radius: 100%;
-  background-color: white;
+  
   color: var(--defaultBackground);
+  
 }
 
 body .options .option .label .info {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: 10px;
+  margin-left: -20px;
   color: white;
   white-space: pre;
+  
 }
 
 body .options .option .label .icon .main{
-  
+  font-weight: bold;
+  font-size: 1.2rem;
+  white-space: nowrap;
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  display: block;
+  width: 20px;
+  height: 20px;
 }
 
 body .options .option .label .info>div {
@@ -198,36 +185,43 @@ body .options .option .label .info>div {
 
 body .options .option .label .info .main {
   font-weight: bold;
+  font-size: 1.2rem;  
+  display:block;
+  bottom:0;
+  width:20px;
+  height:20px;
+}
+
+body .options .option .label .icon .vertical {
+  font-weight: bold;
   font-size: 1.2rem;
-    writing-mode:vertical-lr;
-    -webkit-transform:rotate(180deg);
-    -moz-transform:rotate(180deg);
-    -o-transform: rotate(180deg);
-    -ms-transform:rotate(180deg);
-    transform: rotate(180deg);
-    white-space:nowrap;
-    display:block;
-    bottom:0;
-    width:20px;
-    height:20px;
+  writing-mode:vertical-lr;
+  -webkit-transform:rotate(180deg);
+  -moz-transform:rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform:rotate(180deg);
+  transform: rotate(180deg);
+  white-space:nowrap;
+  display:block;
+  bottom:0;
+  width:20px;
+  height:20px;
+  
+  
 }
 
 body .options .option .label .icon .main {
   font-weight: bold;
   font-size: 1.2rem;
-    writing-mode:vertical-lr;
-    -webkit-transform:rotate(180deg);
-    -moz-transform:rotate(180deg);
-    -o-transform: rotate(180deg);
-    -ms-transform:rotate(180deg);
-    transform: rotate(180deg);
-    white-space:nowrap;
-    display:block;
-    bottom:0;
-    width:20px;
-    height:20px;
-}
-
-body .options .option .label .info .sub {
-  transition-delay: 0.1s;
+  writing-mode:vertical-lr;
+  -webkit-transform:rotate(180deg);
+  -moz-transform:rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform:rotate(180deg);
+  transform: rotate(180deg);
+  white-space:nowrap;
+  display:block;
+  bottom:0;
+  width:20px;
+  height:20px;
 }
