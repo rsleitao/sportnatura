@@ -13,16 +13,19 @@
 
 html {
     scroll-behavior: smooth;
-    
 }
-
 
 body{
     margin: 0px;
 }
+
 main{
     max-width: 1380px;
     margin: auto;
+}
+
+footer{  
+    background-color: var(--cor-fundo2);
 }
 
 .t1-carrousel{
@@ -37,9 +40,7 @@ main{
 }
 
 span{
-    color: var(--cor-t2);
-    
-    
+    color: var(--cor-t2); 
 }
 
 .span1{
@@ -50,6 +51,14 @@ span{
     font-family: var(--titulo2);
     font-size: 35px !important;
     color: black !important;
+    font-weight: bold;
+}
+
+
+.p{
+    font-size: 12px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .texto{
@@ -58,44 +67,45 @@ span{
     text-align: justify;
 }
 
-.carousel-caption{
+.txt-footer{
+    font-size: 12px; 
+    font-family: var(--texto); 
+    color: white;
+    margin: 0px;
+    font-weight: bold;
+}
 
+.carousel-caption{
     text-align: start;
     position: absolute;
     top: 140px;
     left: 50px;
- 
 }
 
-.cx-carousel{
-    
+.cx-carousel{ 
     box-shadow: 1px 1px 15px 5px rgba(0, 0, 0, 0.4);
 }
 
-
 .carousel-control-prev,
-    .carousel-control-next {
-        width: 50px; /* Defina a largura dos botões */
-        height: 50px; /* Defina a altura dos botões */
-        border-radius: 50%;
-        background-color: rgba(0, 0, 0, 0.5); /* Cor de fundo dos botões */
-        top: auto; /* Remova o valor padrão para permitir o posicionamento no fundo */
-        bottom: 0; /* Alinhe os botões ao fundo do carrossel */
-        z-index: 1; /* Garante que os botões estejam acima das imagens */
-    }
+.carousel-control-next {
+    width: 50px; /* Defina a largura dos botões */
+    height: 50px; /* Defina a altura dos botões */
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.5); /* Cor de fundo dos botões */
+    top: auto; /* Remova o valor padrão para permitir o posicionamento no fundo */
+    bottom: 0; /* Alinhe os botões ao fundo do carrossel */
+    z-index: 1; /* Garante que os botões estejam acima das imagens */
+}
 
-    .carousel-control-prev {
-        left: 75vw; /* Remove o alinhamento padrão à esquerda */
-        right: auto; /* Alinha o botão "Previous" à direita */
-    }
+.carousel-control-prev {
+    left: 75vw; /* Remove o alinhamento padrão à esquerda */
+    right: auto; /* Alinha o botão "Previous" à direita */
+}
 
-    .carousel-control-next {
-        left: 85vw; /* Alinha o botão "Next" à esquerda, deixando um espaço de 50px para o botão "Previous" */
-        right: auto;
-    }
-
-
-   
+.carousel-control-next {
+    left: 85vw; /* Alinha o botão "Next" à esquerda, deixando um espaço de 50px para o botão "Previous" */
+    right: auto;
+}
 
 .cx-header{
     display: inline-block;
@@ -116,42 +126,27 @@ span{
 }
 
 
-
-
-
-footer{
-    
-    background-color: var(--cor-fundo2);
-}
-
 li{
     display: inline-block!important;
     list-style-type: none!important;
     list-style: none!important;
     position: relative!important;
-    top: 25px!important;
-    
+    top: 25px!important;  
 }
-
 
 li a{
     text-transform: uppercase!important;
     text-decoration: none!important;
     font-size: 18px!important;
-
     padding: 0px 20px!important;
     margin-top: 50px!important;
-
 }
-
 
 /*Main*/
 
 
-
 /*DIV DO EMAIL*/
 .div-email{
-    
     background-image: url("../imagens/brincanatura-insuflaveis.jpg");
     background-position: center;
     background-attachment: fixed;
@@ -159,7 +154,6 @@ li a{
     background-position: center;
     background-size: cover;
     height: 300px;
-
 }
 
 .cx-email{
@@ -169,8 +163,8 @@ li a{
     align-content: center;
     font-weight: bolder;
     color: white;
- 
 }
+
 .btn-email{
     border-radius: 50px;
     padding: 10px 15px;
@@ -188,50 +182,8 @@ li a{
 /*DIV DO EMAIL*/
 
 
-
-.img1,.img2,.img3,.img4, .fundo-about-us {
-
-    height: 100vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    opacity: 0.7;
-    
-
-
-}
-
-
-.about-main{
-    
-    background-image: url("../imagens/clientes.jpg");
-}
-
-.img1{
-    background-image: url("../imagens/landscape1.jpg");
-}
-
-.img2{
-    background-image: url("../imagens/landscape2.jpg");
-}
-
-.img3{
-    background-image: url("../imagens/landscape3.jpg");
-}
-
-.img4{
-    background-image: url("../imagens/landscape4.jpg");
-}
-
-.fundo-about-us{
-    background-image: url("../imagens/landscape3.jpg");
-    
-}
-
 .cx-main{
-    padding-top: 130px !important;
-    
+    padding-top: 130px !important;  
 }
 
 .cx-fundo-aboutus{
@@ -240,8 +192,7 @@ li a{
 
 .cx-about-us{
     background-color: rgba(124, 194, 106, 0.082);
-    box-shadow: 0px 0px 45px 15px rgba(0, 0, 0, 0.144);
-    
+    box-shadow: 0px 0px 45px 15px rgba(0, 0, 0, 0.144);  
 }
 
 
@@ -258,29 +209,12 @@ li a{
   }
 
 
-/*Personalização de Texto*/
 
-.t2{
-    font-size: 13px;
-    color: white;
-    font-weight: bold;
-}
 
-.p{
-    font-size: 12px;
-    color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
 
-.txt-footer{
-    font-size: 12px; 
-    font-family: var(--texto); 
-    color: white;
-    margin: 0px;
-    font-weight: bold;
-}
 
-/*Personalização de Texto*/
+
+/*footer*/
 
 
 .btn-footer{
@@ -329,95 +263,6 @@ hr{
 }
 
 
-/*Circulos Atividades*/
-
-.img-quemsomos{
-    width: 60vw !important;
-    min-width:250px !important;
-    max-width: 400px !important;
-    box-shadow: 2px 2px 5px 1px ;
-    
-}
-
-
-/*Hamburguer*/
-
-.navbar-toggler-icon{
-
-    border: none;
-    background-image: url("../imagens/hamburger-inativo.png");
-    transition: background-image 1s!important;
-    font-size: 25px;
-      
-}
-
-
-.navbar-toggler-icon:active,
-.navbar-toggler-icon:focus,
-.navbar-toggler-icon:hover{
- 
-    background-image: url("../imagens/hamburger-ativo.png");
-    transition: background-image 0.3s!important;
-   
-}
-
-
-.navbar-toggler{
-    position: relative;
-    right: -30px;
-    top: 5px;
-
-}
-
-.navbar-toggler,
-.navbar-toggler:focus,
-.navbar-toggler:active,
-.navbar-toggler-icon:focus {
-    
-    outline: none;
-    box-shadow: none;
-    border: none;
- }
-
-
-
-.navbar-collapse{
-
-    background-color: rgba(255, 255, 255, 0.61);
-    
-}
-
-#navbarNav{
-    width: 100vw;
- 
-}
-
-.nav-link{
-    position: relative;
-    top: -125px;
-    color: white;
-    }
-
-.nav-link:hover{
-    transition: transform 0.5s!important;
-    transition: color 0.2s!important;
-
-    transform: scale(1.05)!important;
-    color: aquamarine!important;
-    
-}
-
-
-/*Hamburguer*/
-
-.nav-item{
-    border: 1px solid red;
-    
-
-}
-
-
-
 /*Icones Redes Sociais footer*/
 
 .icon{
@@ -455,12 +300,9 @@ hr{
 .icon:hover{
     transition: transform 0.5s; 
     transform: scale(1.1);
-
 }
 
 /*Footer*/
-
-
 
 
 /*MEDIA QUERYS*/
@@ -471,8 +313,7 @@ hr{
     #logo{
         margin-top: 5px;
         left: 25px;
-        top: 0px!important;
-        
+        top: 0px!important; 
     }
 
     li{ 
@@ -485,30 +326,14 @@ hr{
         text-align: end;
     }
 
-    .nav-link:hover{
-        transition: transform 0.5s!important;
-        transition: color 0.2s!important;
-    
-        transform: scale(1)!important;
-        color: aquamarine!important; 
-    }
-    
     .icon-tn{
         max-width: 5vh!important;
         width: 5vh!important;
     }
-
-    .nav-link{
-        position: relative;
-        top: -15px;
-        color: white;
-        right: 40px;
-        }
-  
+ 
     .service-item:hover {
-        transform: translateY(-10px);
-        
-        }
+        transform: translateY(-10px); 
+    }
 }
 
 /*MEDIA QUERYS*/
