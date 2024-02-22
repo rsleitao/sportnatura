@@ -18,6 +18,11 @@
 
 }
 
+.ativo{
+  background-color: rgba(86, 184, 110,0.4);
+  border-radius: 25px;
+}
+
 
 body .options {
   display: flex;

@@ -4,14 +4,12 @@ $(".option").mouseover(function () {
   
   });
 
-  $(".categoria").click(function () {
-    $(".categoria").removeClass("active");
-    $(this).addClass("active");
-    
-    });
   
 
-$(".terra").click(function () {
+$(".terra").mouseover(function () {
+  $(".agua").removeClass("ativo");
+  $(".ar").removeClass("ativo");
+  $(".terra").addClass("ativo");
   $(".option").removeClass("active");
   $(".opt1").addClass("active");
   $(".cards-terra").removeClass("d-none");
@@ -21,7 +19,10 @@ $(".terra").click(function () {
   
   });
   
-$(".agua").click(function () {
+$(".agua").mouseover(function () {
+  $(".terra").removeClass("ativo");
+  $(".ar").removeClass("ativo");
+  $(".agua").addClass("ativo");
   $(".option").removeClass("active");
   $(".opt1").addClass("active");
   $(".cards-agua").removeClass("d-none");
@@ -31,7 +32,10 @@ $(".agua").click(function () {
   
   });
 
-  $(".ar").click(function () {
+  $(".ar").mouseover(function () {
+    $(".agua").removeClass("ativo");
+    $(".terra").removeClass("ativo");
+    $(".ar").addClass("ativo");
     $(".option").removeClass("active");
     $(".opt1").addClass("active");
     $(".cards-ar").removeClass("d-none");
