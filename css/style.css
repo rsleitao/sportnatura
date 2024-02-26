@@ -84,6 +84,8 @@ span{
 
 .cx-carousel{ 
     box-shadow: 1px 1px 15px 5px rgba(0, 0, 0, 0.4);
+    max-width: 1380px !important;
+    
 }
 
 .carousel-control-prev,
@@ -117,12 +119,9 @@ span{
     background: linear-gradient(180deg, rgba(17,17,17,1) 0%, rgba(59,121,9,1) 53%, rgba(24, 155, 9,0.7) 100%); 
 }
 
-.cx-carousel{
-    max-width: 1380px !important;
-}
-
 #carousel{
     background-color: #111;
+    
 }
 
 
@@ -186,13 +185,14 @@ li a{
     padding-top: 130px !important;  
 }
 
-.cx-fundo-aboutus{
-    background-color: rgba(255, 255, 255, 0.4);
-}
-
 .cx-about-us{
     background-color: rgba(124, 194, 106, 0.082);
-    box-shadow: 0px 0px 45px 15px rgba(0, 0, 0, 0.144);  
+    box-shadow: 2px 2px 15px 3px rgba(0, 0, 0, 0.3);
+   
+}
+
+.img-quemsomos{
+    width: 50%;
 }
 
 
