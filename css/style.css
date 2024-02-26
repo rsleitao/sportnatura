@@ -88,8 +88,8 @@ span{
     
 }
 
-.carousel-control-prev,
-.carousel-control-next {
+.carousel-control-prev-desktop,
+.carousel-control-next-desktop {
     width: 50px; /* Defina a largura dos botões */
     height: 50px; /* Defina a altura dos botões */
     border-radius: 50%;
@@ -99,12 +99,12 @@ span{
     z-index: 1; /* Garante que os botões estejam acima das imagens */
 }
 
-.carousel-control-prev {
+.carousel-control-prev-desktop {
     left: 75vw; /* Remove o alinhamento padrão à esquerda */
     right: auto; /* Alinha o botão "Previous" à direita */
 }
 
-.carousel-control-next {
+.carousel-control-next-desktop {
     left: 85vw; /* Alinha o botão "Next" à esquerda, deixando um espaço de 50px para o botão "Previous" */
     right: auto;
 }

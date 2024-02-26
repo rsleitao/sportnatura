@@ -4,7 +4,7 @@
   padding: 0px 5px;
   width: 170px;
   text-align: center;
-  border-bottom: 2px solid rgb(84, 185, 33);
+
  
   transform: scale(1);
   transition: transform 1s !important;
@@ -19,8 +19,22 @@
 }
 
 .ativo{
-  background-color: rgba(86, 184, 110,0.4);
-  border-radius: 25px;
+  position: relative;
+	padding: 0 0 10px;
+	margin-bottom: 10px;
+
+}
+
+.ativo::after{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 50px;
+    border-radius: 2px;
+    background-color: #2ecc71;
 }
 
 
@@ -240,8 +254,8 @@ body .options .option .label .icon .main {
  
   border-radius: 30px;
   background-color: #2ECC71;
-  height: 4vw;
-  min-height: 35px;
+  height: 6vw;
+  min-height: 45px;
   min-width: 250px ;
   width: 65vw;
   max-width: 450px;
@@ -251,7 +265,7 @@ body .options .option .label .icon .main {
   text-align: center;
   color: white;
   font-weight: bolder;
-  font-size: 23px;
+  font-size: 16px;
 
   transform: scale(1);
   transition: transform 1s;
@@ -266,6 +280,14 @@ body .options .option .label .icon .main {
   
 }
 
-body #carouselExampleMob .desportos-opcoes .desporto-mob:nth-child(1) {
-  --defaultBackground: #ED5565;
+
+.carousel-control-prev,
+.carousel-control-next {
+  background: rgb(29,121,9);
+  background: radial-gradient(circle, rgba(29,121,9,0.5989159891598916) 0%, rgba(45,184,15,0.5420054200542006) 17%, rgba(50,210,16,0.4227642276422764) 100%); 
+  width: 50px;
+  height: 50px;
+  
+
 }
+
