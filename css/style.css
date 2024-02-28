@@ -77,14 +77,16 @@ span{
 
 .carousel-caption{
     text-align: start;
-    position: relative;
-    top: 0px;
+    top: 11vw;
     left: 50px;
+    
+    
 }
 
 .cx-carousel{ 
     box-shadow: 1px 1px 15px 5px rgba(0, 0, 0, 0.4);
     max-width: 1380px !important;
+    display: flex;
     
 }
 
