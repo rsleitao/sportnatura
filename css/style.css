@@ -314,3 +314,29 @@ hr{
 }
 
 /*MEDIA QUERYS*/
+
+
+@media (max-width: 575px) {
+    .carousel-caption{
+        top: 26vw !important;
+    }
+
+    .t1-carrousel{
+        font-size: 33px;
+
+    }
+
+}
+
+@media (max-width: 767px) {
+    .carousel-caption{
+        top: 13vw;
+    }
+
+    .t1-carrousel{
+        font-size: 23px;
+
+    }
+
+}
+
