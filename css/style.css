@@ -9,6 +9,11 @@
     --titulo2: 'Caveat Brush' !important;
     --texto: 'Fira Sans' !important;
 
+    --theme-text: #010937;
+    
+
+    
+
 }
 
 html {
@@ -323,7 +328,6 @@ hr{
 
     .t1-carrousel{
         font-size: 33px;
-
     }
 
 }
@@ -340,3 +344,71 @@ hr{
 
 }
 
+.about-left {
+    position: relative;
+    display: block;
+    margin-right: 30px;
+  }
+
+  .about-img {
+    position: relative;
+  }
+
+  .img, img {
+    max-width: 100%;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+    height: auto;
+  }
+
+  .about-img-2 {
+    position: absolute;
+    right: -45px;
+    bottom: -45px;
+    width: 45%;
+    border: 10px solid white;
+    border-top-left-radius: 80px;
+  }
+  .img, img {
+    max-width: 100%;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+    height: auto;
+  }
+  img, svg {
+    vertical-align: middle;
+  }
+
+  .about-experience {
+    background: rgb(84, 185, 33);
+    position: absolute;
+    left: -40px;
+    bottom: 110px;
+    padding: 30px 20px;
+    text-align: center;
+    border: 10px solid white
+  }
+
+  .site-title {
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 45px;
+    color: var(--theme-text);
+    margin-bottom: 0;
+    font-family: var(--texto);
+  }
+
+  .about-experience span {
+    color: white;
+    font-size: 70px;
+    font-weight: 900;
+    line-height: 1;
+    margin-bottom: 10px;
+    display: inline-block;
+  }
