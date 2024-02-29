@@ -143,15 +143,6 @@ li a{
     position: relative;
   }
 
-  .img, img {
-    max-width: 100%;
-    -webkit-transition: all 0.3s ease-out 0s;
-    -moz-transition: all 0.3s ease-out 0s;
-    -ms-transition: all 0.3s ease-out 0s;
-    -o-transition: all 0.3s ease-out 0s;
-    transition: all 0.3s ease-out 0s;
-    height: auto;
-  }
 
   .about-img-2 {
     position: absolute;
@@ -174,6 +165,16 @@ li a{
     vertical-align: middle;
   }
 
+  img {
+    max-width: 100%;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+    height: auto;
+}
+
   .about-experience {
     background: rgb(84, 185, 33);
     position: absolute;
@@ -193,6 +194,7 @@ li a{
     font-family: var(--texto);
   }
 
+
   .about-experience span {
     color: white;
     font-size: 70px;
@@ -202,6 +204,14 @@ li a{
     display: inline-block;
   }
 
+  .site-about-us {
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 30px;
+    color: var(--theme-text);
+    margin-bottom: 0;
+    font-family: var(--texto);
+  }
   .about-list span {
     font-size: 70px;
     font-weight: 900;
@@ -390,6 +400,18 @@ hr{
     .t1-carrousel{
         font-size: 33px;
     }
+
+    .site-about-us {
+
+        font-size: 25px;
+
+      }
+      .about-list span {
+        font-size: 50px;
+
+      }
+
+
 
 }
 
