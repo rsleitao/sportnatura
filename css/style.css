@@ -1,15 +1,15 @@
 :root{
-    --cor-fundo: rgb(37, 134, 54)!important;
-    --cor-fundo2: #111!important;
+    --cor-fundo: rgb(37, 134, 54) !important;
+    --cor-fundo2: #111 !important;
 
-    --cor-t1: #013705!important;
-    --cor-t2: #2ba81f!important;
+    --cor-t1: #013705 !important;
+    --cor-t2: #2ba81f !important;
     
     --titulo1: 'Roboto' !important;
     --titulo2: 'Caveat Brush' !important;
     --texto: 'Fira Sans' !important;
 
-    --theme-text: #010937;
+    --theme-text: #010937 !important;
     
 
     
@@ -202,6 +202,12 @@ li a{
     display: inline-block;
   }
 
+  .about-list span {
+    font-size: 70px;
+    font-weight: 900;
+    line-height: 1;
+  }
+
   /*SOBRE NÓS*/
 
 
@@ -211,7 +217,6 @@ li a{
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
     height: 300px;
 }
@@ -254,10 +259,6 @@ li a{
     transition: transform 2s;
     cursor: pointer;
   }
-
-
-
-
 
 .btn-footer{
     border: none;
